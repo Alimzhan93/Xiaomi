@@ -15,9 +15,7 @@ const openModal = () =>{
 
 const closeModal = () =>{
     modal.classList.remove('show')
-    
-
-    setTimeout(()=>{
+     setTimeout(()=>{
         modal.style.display = 'none'
     }, 300)
 }
