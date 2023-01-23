@@ -5,7 +5,6 @@ const modal = document.getElementById('auth-modal') // модальное окн
 const closeBtn = modal.querySelectorAll('.close-btn') //выход 
 const loginBtn = modal.querySelector('.login-btn')
 
-
 const openModal = () => {
    modal.classList.add('d-block')
             setTimeout(() => {
