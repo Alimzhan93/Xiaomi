@@ -1,9 +1,9 @@
 const authBtn = document.getElementById('open-auth-btn')  ///войти 
-const openCartBtn = document.getElementById('open-cart-btn')
-const logoutBtn = document.getElementById('logout-btn')
+const openCartBtn = document.getElementById('open-cart-btn') //корзина
+const logoutBtn = document.getElementById('logout-btn') //выйти
 const modal = document.getElementById('auth-modal') // модальное окно
 const closeBtn = modal.querySelectorAll('.close-btn') //выход 
-const loginBtn = modal.querySelector('.login-btn')
+const loginBtn = modal.querySelector('.login-btn') //войти
 
 const openModal = () => {
    modal.classList.add('d-block')
